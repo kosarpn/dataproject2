@@ -12,6 +12,7 @@ from src.exception import CustomException
 from src.logger import logging
 
 from src.utils import save_object
+from src.components.model_trainer import ModelTrainerConfig
 @dataclass
 class DataTransformationConfig:
     preprocessor_obj_file_path=os.path.join("artifacts","proprocessor.pkl")
@@ -33,7 +34,6 @@ class DataTransformation:
                 steps=[
                     ("imputer",SimpleImputer(strategy="median")),
                     ("scaler",StandardScaler())
-
                 ]
             )
             cat_pipeline = Pipeline(
@@ -76,7 +76,7 @@ class DataTransformation:
             input_feature_train_arr=preprocessing_obj.fit_transform(input_feature_train_df)
             input_feature_test_arr=preprocessing_obj.transform(input_feature_test_df)
             train_arr=np.c_[
-                input_feature_train_arr,np.array(input_feature_train_df)
+                input_feature_train_arr,np.array(target_feature_train_df)
             ]
             test_arr=np.c_[input_feature_test_arr,np.array(target_feature_test_df)]
             logging.info(f"Saved preprocessing object.")
