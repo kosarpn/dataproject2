@@ -1,0 +1,47 @@
+[33mcommit 25c9bcbb4f5d5ab0ff24064db8edeee5b0093479[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: kosar <kosarpourjavan.ko@gmail.com>
+Date:   Tue Nov 3 06:41:55 2026 -0800
+
+    Hyperparameter Tuning
+
+[33mcommit b0c2e6cf37556d7fcf84cbb425a33ec5c292af96[m
+Author: kosar <kosarpourjavan.ko@gmail.com>
+Date:   Tue Nov 3 01:00:14 2026 -0800
+
+    Model Trainer
+
+[33mcommit aa5a007c669c4e40e73362fc83b445bc2222e02c[m
+Author: kosar <kosarpourjavan.ko@gmail.com>
+Date:   Sun Nov 1 11:58:21 2026 -0800
+
+    Data Transformation Done
+
+[33mcommit 5d4829141fec208bd5af11c8621c5fef5b678ed3[m
+Author: kosar <kosarpourjavan.ko@gmail.com>
+Date:   Fri Oct 30 13:46:33 2026 -0700
+
+    Data Ingestion
+
+[33mcommit 2e9029e9f702e85a5055c2a925d8dd0e8aa76fe4[m
+Author: kosar <kosarpourjavan.ko@gmail.com>
+Date:   Mon Oct 26 00:15:11 2026 -0700
+
+    logging and exception
+
+[33mcommit 619636ba5f659ffd44bf006eb85e31f1f61f5dd7[m
+Author: kosar <kosarpourjavan.ko@gmail.com>
+Date:   Fri Oct 23 06:14:28 2026 -0700
+
+    setup
+
+[33mcommit 6fdb9ab3cc5ccfe83fa0d0842f4123c4c7d1f06f[m
+Author: kosarpn <145131662+kosarpn@users.noreply.github.com>
+Date:   Thu Oct 22 09:28:51 2026 -0700
+
+    Create .gitignore
+
+[33mcommit caf8f366fe9a20f3b8e594337ae8a8c7d5e0c078[m
+Author: kosar <kosarpourjavan.ko@gmail.com>
+Date:   Thu Oct 22 08:59:08 2026 -0700
+
+    First Commit
